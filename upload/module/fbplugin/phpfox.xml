@@ -1,0 +1,36 @@
+<module>
+	<data>
+		<module_id>fbplugin</module_id>
+		<product_id>phpfoxlabs_fbplugin</product_id>
+		<is_core>0</is_core>
+		<is_active>1</is_active>
+		<is_menu>1</is_menu>
+		<menu></menu>
+		<phrase_var_name>module_fbplugin</phrase_var_name>
+	</data>
+	<setting_groups>
+		<name module_id="fbplugin" version_id="2.0.7" var_name="setting_group_facebook_social_plugin">facebook_social_plugin</name>
+	</setting_groups>
+	<settings>
+		<setting group="facebook_social_plugin" module_id="fbplugin" is_hidden="0" type="string" var_name="side_width" phrase_var_name="setting_side_width" ordering="4" version_id="2.0.7">300</setting>
+		<setting group="facebook_social_plugin" module_id="fbplugin" is_hidden="0" type="string" var_name="facebook_page_url" phrase_var_name="setting_facebook_page_url" ordering="2" version_id="2.0.7">http://www.facebook.com/pages/PHPFoxLabscom/146304098727643</setting>
+		<setting group="facebook_social_plugin" module_id="fbplugin" is_hidden="0" type="drop" var_name="color_scheme" phrase_var_name="setting_color_scheme" ordering="1" version_id="2.0.7"><![CDATA[a:2:{s:7:"default";s:5:"light";s:6:"values";a:2:{i:0;s:5:"light";i:1;s:4:"dark";}}]]></setting>
+	</settings>
+	<blocks>
+		<block type_id="0" m_connection="core.index-visitor" module_id="fbplugin" component="likebox" location="1" is_active="1" ordering="8" disallow_access="" can_move="0">
+			<title>Facebook Like Box</title>
+			<source_code />
+			<source_parsed />
+		</block>
+	</blocks>
+	<components>
+		<component module_id="fbplugin" component="likebox" m_connection="" module="fbplugin" is_controller="0" is_block="1" is_active="1" />
+	</components>
+	<phrases>
+		<phrase module_id="fbplugin" version_id="2.0.7" var_name="setting_group_facebook_social_plugin" added="1304726977"><![CDATA[<title>Facebook Social Plugin</title><info>Facebook Social Plugin</info>]]></phrase>
+		<phrase module_id="fbplugin" version_id="2.0.7" var_name="setting_color_scheme" added="1304727099"><![CDATA[<title>Color Scheme</title><info>Plugin Color Scheme</info>]]></phrase>
+		<phrase module_id="fbplugin" version_id="2.0.7" var_name="setting_facebook_page_url" added="1304727161"><![CDATA[<title>Facebook Page URL</title><info>URL to your Facebook Page</info>]]></phrase>
+		<phrase module_id="fbplugin" version_id="2.0.7" var_name="setting_side_width" added="1304727440"><![CDATA[<title>Sidebar Width</title><info>Width of your Sidebar</info>]]></phrase>
+		<phrase module_id="fbplugin" version_id="2.0.7" var_name="like_box_title" added="1304729488">Find us on Facebook</phrase>
+	</phrases>
+</module>

@@ -1,0 +1,17 @@
+<product>
+	<data>
+		<product_id>phpfoxlabs_fbplugin</product_id>
+		<is_core>0</is_core>
+		<title>phpfoxLABS - Facebook Like Box</title>
+		<description>Facebook Like Box Module from phpfoxLABS</description>
+		<version>1.0.0</version>
+		<latest_version></latest_version>
+		<last_check>1304733094</last_check>
+		<is_active>1</is_active>
+		<url>http://www.phpfoxlabs.com/fbplugin/</url>
+		<url_version_check>http://www.phpfoxlabs.com/fbplugin/version</url_version_check>
+	</data>
+	<modules>
+		<module_id>fbplugin</module_id>
+	</modules>
+</product>
