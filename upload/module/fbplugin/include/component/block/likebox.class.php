@@ -5,7 +5,7 @@
  * @copyright		phpfoxLABS.com
  * @author  		Jacob Adams
  * @package  		Facebook Social Plugins
- * @version 		v1.0.0 - 2011-04-5
+ * @version 		v1.0.0 - 2011-05-5
  * 
  *
  */
